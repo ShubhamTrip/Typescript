@@ -1,0 +1,14 @@
+"use strict";
+;
+function check(user) {
+    if (user.age > 18) {
+        console.log("Welcome to site");
+    }
+    else {
+        console.log("You are under-age");
+    }
+}
+check({ name: "Shubham",
+    age: 18,
+    gender: "male"
+});
